@@ -1,0 +1,2 @@
+for x in `seq -w 0 199`; do wget 'http://uv.bidtool.overture.com/d/verifyimage.jpg?c=737' -q -O overture_$x.jpg; done
+
