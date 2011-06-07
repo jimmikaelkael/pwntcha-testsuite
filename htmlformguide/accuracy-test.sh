@@ -21,7 +21,7 @@ do
 	let numTests=$numTests+1
 done
 
-diff control.txt results.txt | grep ">" >> errors.txt
+diff control.txt results.txt | grep ">" > errors.txt
 
 i=0
 while read line
